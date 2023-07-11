@@ -1,1 +1,2 @@
 # MM_backend
+Aplikacija "Moji muzeji" bi sadržavala muzeje na području Istre. Korisnik će se morati prijaviti za korištenje aplikacije.  Aplikacija bi sadržavala opise i podjele muzeja. Sadržavala bi mogućnost komentiranja i brisanja komentara određenog muzeja. Te bodovanje muzeja. Aplikacija će omogućavati kupovanje ili rezerviranje karata, te plaćanje karata. Sadržavati će mogućnost traženja po gradu, nazivu, tipu muzeja i ocjeni. 
