@@ -1,0 +1,23 @@
+{
+  "name": "MM_backend",
+  "version": "1.0.0",
+  "description": "Aplikacija \"Moji muzeji\" bi sadržavala muzeje na području Istre. Korisnik će se morati prijaviti za korištenje aplikacije.  Aplikacija bi sadržavala opise i podjele muzeja. Sadržavala bi mogućnost komentiranja i brisanja komentara određenog muzeja. Te bodovanje muzeja. Aplikacija će omogućavati kupovanje ili rezerviranje karata. Sadržavati će mogućnost traženja po gradu, nazivu, tipu muzeja i ocjeni.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anaip30/MM_backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anaip30/MM_backend/issues"
+  },
+  "homepage": "https://github.com/anaip30/MM_backend#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  }
+}
