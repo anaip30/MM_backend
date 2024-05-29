@@ -1,0 +1,9 @@
+fastapi
+pydantic
+jwt
+passlib
+pymongo
+python-dotenv
+pydantic
+uvicorn
+pydantic-settings
