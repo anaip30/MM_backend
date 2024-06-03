@@ -1,11 +1,11 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from routers import users, musey
+from routers import museum, users
 
 app = FastAPI()
 
 app.include_router(users.router)
-app.include_router(musey.router)
+app.include_router(museum.router)
 
 origins = ["http://localhost:5173"]
 app.add_middleware(

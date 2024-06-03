@@ -1,6 +1,7 @@
 from pydantic import BaseModel, EmailStr, validator
-from typing import List, Optional
+from typing import  Optional
 from datetime import datetime
+
 
 class User(BaseModel):
     name: str
@@ -42,5 +43,32 @@ class Ticket(BaseModel):
     museum_id: str
     purchase_date: datetime = datetime.now()
     visit_date: datetime
+
+
+
+class Token(BaseModel):
+    access_token: str
+    token_type: str
+
+
+class TokenData(BaseModel):
+    username: str | None = None
+
+
+class UserInDB(User):
+    hashed_password: str
+
+
+class Rating(BaseModel):
+    user_id: str
+    museum_id: str = None  
+    score: float
+
+    @validator('score')
+    def validate_score(cls, value):
+        if not 1 <= value <= 5:
+            raise ValueError('Rating must be between 1 and 5')
+        return value
+
 
 
