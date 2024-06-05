@@ -10,3 +10,4 @@ pydantic-settings
 bcrypt
 pyjwt
 passlib[bcrypt]
+python-multipart
